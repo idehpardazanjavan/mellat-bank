@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist idehpardazanjavan/yii2-mellat-bank "*"
+php composer.phar require --prefer-dist idehpardazanjavan/yii2-mellat-bank "dev-master"
 ```
 
 or add
 
 ```
-"idehpardazanjavan/yii2-mellat-bank": "*"
+"idehpardazanjavan/yii2-mellat-bank": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
