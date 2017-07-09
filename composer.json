@@ -1,0 +1,21 @@
+{
+    "name": "idehpardazanjavan/yii2-mellat-bank",
+    "description": "Library for yii2 to connect to the geteway of the mellat bank",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "ali",
+            "email": "ali.sedighi.tu@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "idehpardazanjavan\\": ""
+        }
+    }
+}
