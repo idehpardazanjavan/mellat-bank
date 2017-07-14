@@ -1,4 +1,5 @@
 <?php
+namespace idehpardazanjavan;
 
 /*
 	programmer: Mahmood Reza Moradi Administrator Of ITfars.com	

@@ -9,6 +9,7 @@ class Mellat_Bank extends \yii\base\Widget
 {
     public function pay($amount,$TerminalId,$UserName,$Password)
     {
+        require_once  'nusoap.php';
         $client = new \nusoap_client('https://bpm.shaparak.ir/pgwchannel/services/pgw?wsdl');
         $namespace='http://interfaces.core.sw.bps.com/';
         $error = $client->getError();
@@ -49,6 +50,7 @@ class Mellat_Bank extends \yii\base\Widget
     }
     public function Verify($SaleOrderId,$SaleReferenceId,$TerminalId,$UserName,$Password)
     {
+        require_once  'nusoap.php';
         $client =new \nusoap_client('https://bpm.shaparak.ir/pgwchannel/services/pgw?wsdl');
         $namespace='http://interfaces.core.sw.bps.com/';
         $error = $client->getError();
@@ -78,6 +80,7 @@ class Mellat_Bank extends \yii\base\Widget
     }
     public function Inquiry($SaleOrderId,$SaleReferenceId,$TerminalId,$UserName,$Password)
     {
+        require_once  'nusoap.php';
         $client =new \nusoap_client('https://bpm.shaparak.ir/pgwchannel/services/pgw?wsdl');
         $namespace='http://interfaces.core.sw.bps.com/';
         $error = $client->getError();
